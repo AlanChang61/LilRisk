@@ -1,0 +1,107 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>Servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BoldServlet</servlet-name>
+  	<display-name>BoldServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.BoldServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PurchaseServlet</servlet-name>
+  	<display-name>PurchaseServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.PurchaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SendToPort</servlet-name>
+  	<display-name>SendToPort</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.SendToPort</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SendToHistory</servlet-name>
+  	<display-name>SendToHistory</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.SendToHistory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SellServlet</servlet-name>
+  	<display-name>SellServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.SellServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetPrice</servlet-name>
+  	<display-name>GetPrice</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.GetPrice</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HistServlet</servlet-name>
+  	<display-name>HistServlet</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.HistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <!-- <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping> -->
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BoldServlet</servlet-name>
+  	<url-pattern>/BoldServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PurchaseServlet</servlet-name>
+  	<url-pattern>/PurchaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SendToPort</servlet-name>
+  	<url-pattern>/SendToPort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SendToHistory</servlet-name>
+  	<url-pattern>/SendToHistory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SellServlet</servlet-name>
+  	<url-pattern>/SellServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetPrice</servlet-name>
+  	<url-pattern>/GetPrice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HistServlet</servlet-name>
+  	<url-pattern>/HistServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
